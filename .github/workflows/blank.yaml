@@ -39,7 +39,7 @@ jobs:
       - name: Use Secrets
         run: echo "SECRET check only length"
         env:
-        MY_TOKEN: ${{secrets.MY_REPO_NAME}}
+          MY_TOKEN: ${{secrets.MY_REPO_NAME}}
       - name: deploying
         run: echo deploying now
          
