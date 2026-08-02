@@ -36,6 +36,10 @@ jobs:
           echo test, and deploy your project.
       - name: say hello
         run: echo " this code has three lines now "
+      - name: Use Secrets
+        run: echo "SECRET check only length"
+        env:
+        MY_TOKEN: ${{secrets.MY_REPO_NAME}}
       - name: deploying
         run: echo deploying now
          
