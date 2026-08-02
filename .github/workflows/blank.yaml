@@ -36,8 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: say hello
         run: echo " this code has three lines now "
-      - name: Run tests
-         run: exit 0
       - name: deploying
          run: echo deploying now
          
