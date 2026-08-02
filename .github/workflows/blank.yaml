@@ -41,10 +41,10 @@ jobs:
         env:
           MY_TOKEN: ${{secrets.MY_REPO_NAME}}
       - name: Deploy to Github pages
-        uses: action/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v4
         with:
          path: .
       - name: Publish
-        uses: action/deploy-pages@v4
+        uses: actions/deploy-pages@v4
         
          
