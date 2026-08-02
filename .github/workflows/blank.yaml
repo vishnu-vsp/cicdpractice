@@ -37,5 +37,5 @@ jobs:
       - name: say hello
         run: echo " this code has three lines now "
       - name: deploying
-         run: echo deploying now
+        run: echo deploying now
          
